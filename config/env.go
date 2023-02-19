@@ -16,6 +16,7 @@ func init() {
 
 var (
 	HttpPort      = os.Getenv("HTTP_PORT")
+	FileName      = os.Getenv("FILE_NAME")
 	DbHost        = os.Getenv("DB_HOST")
 	DbPort        = os.Getenv("DB_PORT")
 	DbUser        = os.Getenv("DB_USER")
